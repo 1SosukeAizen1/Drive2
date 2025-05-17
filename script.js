@@ -1,6 +1,6 @@
 // Hardcoded default screen types
-var screenType = "drive3"; // Main menu
-var secondaryScreenType = "drive3/2"; // Secondary menu
+var screenType = "drive2"; // Main menu
+var secondaryScreenType = "drive2/2"; // Secondary menu
 
 // Function to load a menu dynamically
 function loadMenu(screenType, containerId) {
