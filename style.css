@@ -251,12 +251,12 @@ body {
     max-height: 30%;
     border-radius: 12px;
     
-    background:transparent;
+    background: transparent;
     
     object-fit: contain;
 }
 .category-title-wrapper .category-icon {
-    max-width: 330px;
+    max-width: 320px;
     max-height: 300px;
     border-radius: 14px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.10);
@@ -268,11 +268,11 @@ body {
 .flame-banner {
     background: transparent;
     color: #ffffff;
-    border: 6px dashed #ff2600;
+    border: 9px dashed #ff2600;
     border-radius: 20px;
-    box-shadow: 0 2px 8px rgba(255,153,0,0.10);
+    
     font-weight: bold;
-    font-size: 2.6rem;
+    font-size: 5rem;
     padding: 8px 2px;
     margin: 20px 0;
     text-align: center;
@@ -286,10 +286,10 @@ body {
 .flame-banner .banner-price{
     display: block;
     margin: 10px auto 0 auto;
-    font-size: 2.9rem;
+    font-size: 5rem;
     color: #ffffff;
     font-weight: bold;
-    
+    text-align: center;
     border-radius: 10px;
     padding: 6px 22px;
     
@@ -319,7 +319,7 @@ body {
 }
 
 .flame-new::before {
-    content: "";
+    background: url("assets/icons/Fish\ dinner.png");
     
     position: absolute;
     
