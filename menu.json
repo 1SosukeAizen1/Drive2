@@ -141,16 +141,12 @@
         ]
     },
     "drive2/2": {
-        "All new":{ 
-            "type": "New",
-            "text": "",
-            "price": ""
-        },
+        
         "Ruben": [
             {
                 "name": " ",
                 "desc": "Corned-Beef, Swiss cheese, sauerkraut and thousand island dressing on grilled rye bread",
-                "price": "$8.99"
+                "price": "$7.99"
             }
         ],
         "combo-banner": {
