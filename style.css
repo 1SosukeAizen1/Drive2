@@ -268,7 +268,7 @@ body {
 .flame-banner {
     background: transparent;
     color: #ffffff;
-    border: 5px dashed #ff2600;
+    border: 6px dashed #ff2600;
     border-radius: 20px;
     box-shadow: 0 2px 8px rgba(255,153,0,0.10);
     font-weight: bold;
