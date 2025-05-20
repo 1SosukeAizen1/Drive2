@@ -196,16 +196,12 @@
                 "desc": "",
                 "price": "Sm $2.39 Lg $3.49"
             }
-        ]
-        
-    },
-    "drive3": {
-        
+        ], 
         "Loaded fries": [
             {
                 "name": "Buffalo chicken Fries",
                 "desc": "",
-                "price": "$9.99"
+                "price": ""
             },
             {
                 "name": "Gyro Cheese Fries",
@@ -218,6 +214,11 @@
                 "price": "$8.99"
             }
         ]
+        
+    },
+    "drive3": {
+        
+        
         
     },
     "drive3/2": {
