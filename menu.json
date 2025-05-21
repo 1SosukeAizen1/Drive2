@@ -145,7 +145,7 @@
         "Ruben": [
             {
                 "name": " ",
-                "desc": "Corned-Beef, Swiss cheese, sauerkraut and thousand island dressing on grilled rye bread",
+                "desc": "Corned-Beef, Swiss cheese, sauerkraut and thousand island",
                 "price": "$7.99"
             }
         ],
@@ -164,7 +164,7 @@
             {
                 "name": "Handcut Fries",
                 "desc": "",
-                "price": "Sm $3.49 Lg $4.49"
+                "price": "Sm $3.19 Lg $4.49"
             },
             {
                 "name": "Cheese Fries",
@@ -189,7 +189,7 @@
             {
                 "name": "Sweet Potato fries",
                 "desc": "",
-                "price": "Sm $3.49    Lg $4.99"
+                "price": "Sm $3.19    Lg $4.49"
             },
             {
                 "name": "Mashed potatoes",

@@ -179,7 +179,7 @@ body {
 }
 
 .item-price {
-    font-size: 3rem;
+    font-size: 2.7rem;
     color: #ffffff;
     font-weight: bold;
     padding-inline: 10px;
@@ -273,8 +273,7 @@ body {
     
     font-weight: bold;
     font-size: 2.7rem;
-    padding: 8px 2px;
-    margin: 20px 0;
+    padding-top: 10px;
     text-align: center;
     letter-spacing: 1px;
     z-index: 2;
