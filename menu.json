@@ -124,7 +124,7 @@
             ,
             {
                 "name": "Crispy / grilled Sandwich",
-                "desc": "",
+                "desc": "Make it spicy for $0.50",
                 "price": "$7.99"
             },
             {
@@ -135,7 +135,7 @@
             
             {
                 "name": "Philly CheeseSteak",
-                "desc": "",
+                "desc": "Grilled onions, green peppers, mushrooms, tomatoes, mayo and cheese",
                 "price": "$11.99"
             }
         ]
@@ -199,12 +199,7 @@
         ], 
         "Loaded fries": [
             {
-                "name": "Buffalo chicken Fries",
-                "desc": "",
-                "price": ""
-            },
-            {
-                "name": "Gyro Cheese Fries",
+                "name": "Buffalo chicken Fries / gyro cheese fries",
                 "desc": "",
                 "price": "$9.99"
             },
