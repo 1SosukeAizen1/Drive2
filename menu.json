@@ -157,7 +157,7 @@
         ,
         "side-banner": {
             "type": "banner",
-            "text": "upgrade side and drink", 
+            "text": "or upgrade to side and drink", 
             "price": ""
         },
         "Fries": [
