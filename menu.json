@@ -155,6 +155,11 @@
             "price": "$5.99"
         }
         ,
+        "side-banner": {
+            "type": "banner",
+            "text": "upgrade side and drink", 
+            "price": ""
+        },
         "Fries": [
             {
                 "name": "Crispy Fries",
@@ -177,6 +182,8 @@
                 "price": "$5.99"
             }
         ],
+       
+        
         "Sides":[
             {
                 "name": "Onion Rings",
