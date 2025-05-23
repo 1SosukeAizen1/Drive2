@@ -97,12 +97,12 @@
             {
                 "name": "Slims burger",
                 "desc": "Cheese, Lettuce, Tomatoes, onions, Pickles and Sauce",
-                "price": "Sgl $5.99  Dbl $7.99 "
+                "price": "Sgl $5.99  Dbl $8.49 "
             },
             {
                 "name": "Busy burger",
                 "desc": "white american, grilled onions and busy sauce",
-                "price": "Sgl $5.99  Dbl $7.99"
+                "price": "Sgl $5.99  Dbl $8.49"
             },
             {
                 "name": "Gyro burger",
@@ -134,7 +134,7 @@
             },
             
             {
-                "name": "Philly CheeseSteak",
+                "name": "Deluxe CheeseSteak",
                 "desc": "Grilled onions, green peppers, mushrooms, tomatoes, mayo and cheese",
                 "price": "$11.99"
             }
