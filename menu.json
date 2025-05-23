@@ -135,7 +135,7 @@
             
             {
                 "name": "Deluxe CheeseSteak",
-                "desc": "Grilled onions, green peppers, mushrooms, tomatoes, mayo and cheese",
+                "desc": "",
                 "price": "$11.99"
             }
         ]
@@ -196,7 +196,19 @@
                 "desc": "",
                 "price": "Sm $2.39 Lg $3.49"
             }
+            ,
+            {
+                "name": "side of rice",
+                "desc": "",
+                "price": "$2.99"
+            },
+            {
+                "name": "coleslaw",
+                "desc": "",
+                "price": "Sm $1.49 Lg $2.49"
+            }
         ]
+        
     },
     "drive3": {
         
