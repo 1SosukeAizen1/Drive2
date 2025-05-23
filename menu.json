@@ -155,7 +155,7 @@
             "price": "$5.99"
         }
         ,
-        "Sides": [
+        "Fries": [
             {
                 "name": "Crispy Fries",
                 "desc": "",
@@ -175,7 +175,9 @@
                 "name": "Chili Cheese Fries",
                 "desc": "",
                 "price": "$5.99"
-            },
+            }
+        ],
+        "Sides":[
             {
                 "name": "Onion Rings",
                 "desc": " ",
@@ -201,11 +203,6 @@
                 "name": "side of rice",
                 "desc": "",
                 "price": "$2.99"
-            },
-            {
-                "name": "coleslaw",
-                "desc": "",
-                "price": "Sm $1.49 Lg $2.49"
             }
         ]
         
