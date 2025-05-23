@@ -123,6 +123,7 @@ body {
     
     border-radius: 13px; /* Rounded corners */
     padding: 2px; /* Add padding for spacing */
+    
     text-align: center; /* Center the text */
     
 }
@@ -274,7 +275,7 @@ body {
     border-radius: 20px;
     
     font-weight: bold;
-    font-size: 2.6rem;
+    font-size: 2.8rem;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
