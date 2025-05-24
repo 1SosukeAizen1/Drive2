@@ -272,6 +272,8 @@ body {
     background: transparent;
     color: #ffffff;
     
+    border: 5px dashed #ff2600;
+    border-radius: 20px;
     
     
     font-weight: bold;

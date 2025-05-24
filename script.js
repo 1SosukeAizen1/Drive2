@@ -37,6 +37,13 @@ function loadMenu(screenType, containerId) {
                                 priceSpan.textContent = " " + items.price;
                                 bannerDiv.appendChild(priceSpan);
                             }
+                            // Add support for text1
+                            if (items.text1) {
+                                var text1Div = document.createElement("div");
+                                text1Div.className = "banner-text1";
+                                text1Div.textContent = items.text1;
+                                bannerDiv.appendChild(text1Div);
+                            }
                             container.appendChild(bannerDiv);
                             continue;
                         }
