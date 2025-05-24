@@ -9,6 +9,30 @@
     <meta http-equiv="Expires" content="0" />
     <link rel="stylesheet" href="style.css?v=1.0.0">
 </head>
+<!-- Add this before </body> in your index.html -->
+<script>
+const GITHUB_API_URL = "https://api.github.com/repos/YOUR_USERNAME/YOUR_REPO/commits?sha=YOUR_BRANCH";
+let lastCommit = null;
+
+async function checkForUpdate() {
+    try {
+        const response = await fetch(GITHUB_API_URL, { cache: "no-store" });
+        const data = await response.json();
+        if (data && data[0] && data[0].sha) {
+            if (!lastCommit) {
+                lastCommit = data[0].sha;
+            } else if (lastCommit !== data[0].sha) {
+                location.reload(true);
+            }
+        }
+    } catch (e) {
+        // Optionally handle errors
+    }
+}
+
+setInterval(checkForUpdate, 30000); // Check every 30 seconds
+checkForUpdate();
+</script>
 <body>
     
 
