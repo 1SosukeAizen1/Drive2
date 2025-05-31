@@ -84,7 +84,7 @@
             {
                 "name": "Handcut Fries",
                 "desc": "",
-                "price": "Sm $3.19 Lg $4.49"
+                "price": "Sm $3.19 Lg $4.29"
             },
             {
                 "name": "Cheese Fries",
@@ -113,12 +113,12 @@
             {
                 "name": "Sweet Potato fries",
                 "desc": "",
-                "price": "Sm $3.19    Lg $4.49"
+                "price": "Sm $3.99    Lg $4.49"
             },
             {
                 "name": "Mashed potatoes",
                 "desc": "",
-                "price": "Sm $2.39 Lg $3.49"
+                "price": "Sm $2.39 Lg $4.78"
             }
            
         ]
