@@ -115,7 +115,7 @@ body {
 .category-title {
     
     font-size: 3.5rem; /* Slightly larger font size */
-    color: #ed0000; /* White text for contrast */
+    color: #f70000; /* White text for contrast */
     max-width: 100%;
     margin-bottom: 0px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add a shadow for depth */
@@ -167,7 +167,7 @@ body {
 
 .item-name {
     font-size: 3.2rem;
-    color: #ffe600;
+    color: #ffe500;
     padding-inline: 1px;
     padding-top:10px;
     
@@ -215,7 +215,7 @@ body {
 }
 
 .menu-category.secondary {
-    border: 2px solid #ff2a00; /* Highlighted border */
+    border: 2px solid #f70000; /* Highlighted border */
     margin-bottom: 10px;
     padding: 10px;
     
@@ -272,7 +272,7 @@ body {
     background: transparent;
     color: #ffffff;
     
-    border: 5px dashed #ff2600;
+    border: 5px dashed #f70000;
     border-radius: 20px;
     margin-bottom: 10px;
     padding: 10px;
