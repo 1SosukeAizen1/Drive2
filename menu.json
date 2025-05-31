@@ -31,7 +31,12 @@
             }
             ,
             {
-                "name": "Crispy chicken / grilled chicken",
+                "name": "grilled chicken",
+                "desc": "",
+                "price": "$7.99"
+            },
+            {
+                "name": "crispy chicken",
                 "desc": "",
                 "price": "$7.99"
             },
