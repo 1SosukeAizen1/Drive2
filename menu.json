@@ -26,13 +26,13 @@
         "Sandwiches": [
             {
                 "name": "Gyro",
-                "desc": "Make it spicy for $0.50",
+                "desc": "",
                 "price": "$7.99"
             }
             ,
             {
-                "name": "Crispy / grilled Sandwich",
-                "desc": "Make it spicy for $0.50",
+                "name": "Crispy chicken / grilled chicken",
+                "desc": "",
                 "price": "$7.99"
             },
             {
