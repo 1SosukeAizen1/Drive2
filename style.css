@@ -255,8 +255,8 @@ body {
     object-fit: contain;
 }
 .category-title-wrapper .category-icon {
-    max-width: 350px;
-    max-height: 350px;
+    max-width: 320px;
+    max-height: 320px;
     border-radius: 14px;
    
     background: transparent;
