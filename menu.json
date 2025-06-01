@@ -23,28 +23,35 @@
                 "price": ""
             }
         ],
+        "combo-banner": {
+            "type": "banner",
+            "text": "Combo: Fries & Soda",
+            "price": "$5.99",
+            "text1": ""
+        } ,
+        
         "Sandwiches": [
+            
             {
-                "name": "Gyro",
-                "desc": "Make it spicy for $0.50",
+                "name": "philly CheeseSteak",
+                "desc": "cheese, grilled onions, peppers, mushrooms, mayo and tomatoes",
+                "price": "$11.99"
+            },
+            {
+                "name": "crispy Chicken",
+                "desc": "",
                 "price": "$7.99"
             }
             ,
             {
-                "name": "Crispy / grilled Sandwich",
-                "desc": "Make it spicy for $0.50",
+                "name": "grilled chicken",
+                "desc": "",
                 "price": "$7.99"
             },
             {
                 "name": "Fish Sandwich",
                 "desc": "",
                 "price": "$6.99"
-            },
-            
-            {
-                "name": "philly CheeseSteak",
-                "desc": "cheese, grilled onions, peppers, mushrooms, mayo and tomatoes",
-                "price": "$11.99"
             }
         ]
     },
@@ -57,12 +64,19 @@
                 "price": "$8.99"
             }
         ],
-        "combo-banner": {
-            "type": "banner",
-            "text": "Combo: Fries & Soda",
-            "price": "$5.99",
-            "text1": "Upgrade to any side or drink available"
-        } ,
+        "Gyros":[
+            {
+                "name": "classic Gyro",
+                "desc": "",
+                "price": "$7.99"
+            },
+            {
+                "name": "spicy Gyro",
+                "desc": "",
+                "price": "$8.49"
+            }
+        ],
+        
     
         "Fries": [
             {
@@ -71,11 +85,7 @@
                 "price": "Sm $2.99 Lg $3.99 "
             }
              ,
-            {
-                "name": "",
-                "desc": "",
-                "price": "familly fries $6.99"
-            },
+        
             {
                 "name": "Handcut Fries",
                 "desc": "",
@@ -87,7 +97,7 @@
                 "price": "$4.99"
             },
             {
-                "name": "Chili Cheese Fries",
+                "name": "Chili Cheese",
                 "desc": "",
                 "price": "$5.99"
             }

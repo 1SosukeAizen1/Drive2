@@ -12,10 +12,9 @@ body {
 }
 
 
-
 /* Menu Items Container */
 #menu-items {
-    padding-top: 10px;
+    padding-top: 5px;
     position: absolute;
     top: 0; /* Align the menu to the top */
     left: 0;
@@ -113,17 +112,13 @@ body {
 }
 /* Category Title */
 .category-title {
-    
-    font-size: 3.5rem; /* Slightly larger font size */
-    color: #f70000; /* White text for contrast */
+    font-size: 3.9rem; /* Slightly larger font size */
+    color: #f70000; /* Updated red */
     max-width: 100%;
     margin-bottom: 0px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add a shadow for depth */
-    
-    
     border-radius: 13px; /* Rounded corners */
     padding: 2px; /* Add padding for spacing */
-    
     text-align: center; /* Center the text */
     
 }
@@ -166,10 +161,11 @@ body {
 
 
 .item-name {
-    font-size: 3.2rem;
-    color: #ffe500;
-    padding-inline: 1px;
-    padding-top:10px;
+    font-size: 2.9rem;
+    color: #ffe500; /* Updated yellow */
+    padding-inline: 5px;
+    padding-top:5px;
+    
     
 }
 
@@ -182,7 +178,7 @@ body {
 }
 
 .item-price {
-    font-size: 2.9rem;
+    font-size: 2.8rem;
     color: #ffffff;
     font-weight: bold;
     padding-inline: 10px;
@@ -215,7 +211,7 @@ body {
 }
 
 .menu-category.secondary {
-    border: 2px solid #f70000; /* Highlighted border */
+    border: 2px solid #f70000; /* Updated red */
     margin-bottom: 10px;
     padding: 10px;
     
@@ -224,7 +220,7 @@ body {
 
 .category-title.secondary {
     font-size: 2rem; /* Slightly smaller font size for secondary menu */
-    color: #ffcc00;
+    color: #ffe500; /* Updated yellow */
     
 }
 
@@ -259,25 +255,23 @@ body {
     object-fit: contain;
 }
 .category-title-wrapper .category-icon {
-    max-width: 300px;
-    max-height: 300px;
-    
-    
+    max-width: 350px;
+    max-height: 350px;
+    border-radius: 14px;
+   
     background: transparent;
-    padding-top: 10px;
+    padding-top: 0px;
     object-fit: contain;
 }
 
 .flame-banner {
     background: transparent;
     color: #ffffff;
+    border: 10px dashed #f70000; /* Updated red */
     
-    border: 5px dashed #f70000;
-    border-radius: 20px;
-    margin-bottom: 10px;
-    padding: 10px;
-    font-weight: bold;
-    font-size: 2.8rem;
+    font-size: 3rem;
+    padding: 3px;
+    margin: 5px;
     text-align: center;
     letter-spacing: 1px;
     z-index: 2;
@@ -289,12 +283,11 @@ body {
 .flame-banner .banner-price{
     display: block;
     margin: 10px auto 0 auto;
-    font-size: 2.8rem;
+    font-size: 3rem;
     color: #ffffff;
     font-weight: bold;
-    text-align: center;
-    border-radius: 10px;
-    padding: 6px 22px;
+    
+    
     
     width: 100px;
     letter-spacing: 1px;
@@ -345,7 +338,7 @@ body {
     outline: none;
     text-align: center;
     letter-spacing: 1.5px;
-    text-shadow: 1px 1px 0 #b80000, 0 2px 8px #ff7a7a;
+    text-shadow: 1px 1px 0 #f70000, 0 2px 8px #f70000; /* Updated reds */
 }
 
 .flame-new .New-price {
@@ -362,6 +355,8 @@ body {
     letter-spacing: 1px;
     font-style: it
 }
+
+
 
 /* Remove or set to transparent any background on menu containers */
 #menu-items,
@@ -388,8 +383,6 @@ body {
 }
 
 
-
-
 /* Add shadow to all texts */
 body,
 .category-title,
@@ -408,3 +401,26 @@ body,
 .category-title.secondary {
     text-shadow: 2px 2px 6px rgba(0,0,0,0.7) !important;
 }
+
+.menu-item.inline {
+    display: block; /* Remove flex */
+    text-align: left;
+    padding-left: 16px;
+}
+
+.menu-item.inline .item-name,
+.menu-item.inline .item-price {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0 8px 0 0;
+    /* Prevent wrapping between name and price */
+    white-space: nowrap;
+}
+
+.menu-item.inline .item-price {
+    float: right;
+    padding-right: 16px;
+    text-align: right;
+}
+
