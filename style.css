@@ -269,7 +269,7 @@ body {
     color: #ffffff;
     border: 10px dashed #f70000; /* Updated red */
     
-    font-size: 3.2rem;
+    font-size: 3rem;
     padding: 3px;
     margin: 5px;
     text-align: center;
@@ -283,7 +283,7 @@ body {
 .flame-banner .banner-price{
     display: block;
     margin: 10px auto 0 auto;
-    font-size: 3.2rem;
+    font-size: 3rem;
     color: #ffffff;
     font-weight: bold;
     
@@ -412,7 +412,7 @@ body,
 .menu-item.inline .item-price {
     display: inline-block;
     vertical-align: middle;
-    margin: 0;
+    margin:3px;
     padding: 0 8px 0 0;
     /* Prevent wrapping between name and price */
     white-space: nowrap;
