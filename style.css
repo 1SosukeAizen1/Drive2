@@ -269,7 +269,7 @@ body {
     color: #ffffff;
     border: 10px dashed #f70000; /* Updated red */
     
-    font-size: 3rem;
+    font-size: 3.2rem;
     padding: 3px;
     margin: 5px;
     text-align: center;
@@ -283,7 +283,7 @@ body {
 .flame-banner .banner-price{
     display: block;
     margin: 10px auto 0 auto;
-    font-size: 3rem;
+    font-size: 3.2rem;
     color: #ffffff;
     font-weight: bold;
     
