@@ -115,7 +115,7 @@ body {
     font-size: 4.1rem; /* Slightly larger font size */
     color: #f70000; /* Updated red */
     max-width: 100%;
-    margin: 3px;
+    margin: 5px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add a shadow for depth */
     border-radius: 13px; /* Rounded corners */
     padding: 3px; /* Add padding for spacing */
