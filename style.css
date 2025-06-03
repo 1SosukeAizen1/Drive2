@@ -270,8 +270,10 @@ body {
     border: 10px dashed #f70000; /* Updated red */
     
     font-size: 3rem;
-    padding: 3px;
+    padding: 8px;
+    
     margin: 8px;
+    
     text-align: center;
     letter-spacing: 1px;
     z-index: 2;
