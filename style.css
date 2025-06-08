@@ -146,7 +146,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100%, 1fr)); /* Fit multiple items in rows */
     background: black;
-    
+    padding: 2px;
     z-index: 1;
 }
 
