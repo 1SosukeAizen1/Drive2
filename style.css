@@ -119,6 +119,7 @@ body {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add a shadow for depth */
     border-radius: 13px; /* Rounded corners */
     padding: 3px; /* Add padding for spacing */
+    padding-top: 5px;
     text-align: center; /* Center the text */
     
 }
