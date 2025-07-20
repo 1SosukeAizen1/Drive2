@@ -62,11 +62,6 @@
                 "name": "Fish Sandwich",
                 "desc": "",
                 "price": "$6.99"
-            },
-            {
-                "name": "Italian Beef",
-                "desc": "",
-                "price": "$8.99"
             }
         ]
     },
