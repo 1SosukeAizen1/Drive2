@@ -7,7 +7,7 @@ body {
     background: url("assets/background/background.jpg") no-repeat center center fixed;
     background-size: cover !important;
     font-family: 'Luckiest Guy', cursive;
-    color: #000000;
+    color: #4d2c13;
     overflow: hidden; /* Prevent scrolling */
 }
 
@@ -112,8 +112,8 @@ body {
 }
 /* Category Title */
 .category-title {
-    font-size: 4.1rem; /* Slightly larger font size */
-    color: #f70000; /* Updated red */
+    font-size: 4.4rem; /* Slightly larger font size */
+    color: #ff9800; /* Orange */
     max-width: 100%;
     margin: 5px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add a shadow for depth */
@@ -162,8 +162,8 @@ body {
 
 
 .item-name {
-    font-size: 3rem;
-    color: #ffe500; /* Updated yellow */
+    font-size: 3.5rem;
+    color: #f4ce95; /* Orange */
     padding-inline: 5px;
     padding-top:0;
     
@@ -171,8 +171,8 @@ body {
 }
 
 .item-desc {
-    font-size: 2rem;
-    color: #ddd;
+    font-size: 2.5rem;
+    color: #ffffff;
     font-style: italic;
     font-weight: light;
     padding-inline: 10px;
@@ -180,8 +180,8 @@ body {
 }
 
 .item-price {
-    font-size: 3rem;
-    color: #ffffff;
+    font-size: 3.5rem;
+    color: #fcddc5;
     font-weight: bold;
     padding-inline: 10px;
     padding: 10px;
@@ -222,7 +222,7 @@ body {
 
 .category-title.secondary {
     font-size: 2rem; /* Slightly smaller font size for secondary menu */
-    color: #ffe500; /* Updated yellow */
+    color: #ff9800; /* Orange */
     
 }
 
@@ -235,7 +235,7 @@ body {
 
 .menu-item.secondary {
     background-color: rgba(0, 0, 0, 0.8);
-    color: white;
+    color: #4d2c13;
     padding: 10px;
     border-radius: 5px;
     text-align: center;
@@ -268,7 +268,7 @@ body {
 
 .flame-banner {
     background: linear-gradient(90deg, #ffe600, #ff9900);
-    color: #b80000;
+    color: #422801;
     border: 8px dashed #ff0000;
     font-size: 2.95rem;
     padding: 5px 10px;
@@ -285,7 +285,7 @@ body {
 .flame-banner .banner-price {
     display: block;
     font-size: 2.9rem;
-    color: #d00000;
+    color: #4d2c13;
     margin-top: 10px;
     font-weight: bold;
     text-shadow: 1px 1px 2px #fff;
@@ -298,7 +298,6 @@ body {
     font-family: 'Luckiest Guy', cursive;
     font-weight: bold;
     font-size: 5rem;
-    
     margin: 36px 0;
     text-align: center;
     letter-spacing: 2.5px;
@@ -307,7 +306,8 @@ body {
     display: block;
     position: relative;
     animation: none;
-    padding-top: 0px; 
+    padding-top: 0px;
+    color: #ff9800;
     transition: box-shadow 0.2s, border 0.2s;
 }
 
