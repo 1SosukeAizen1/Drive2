@@ -162,8 +162,8 @@ body {
 
 
 .item-name {
-    font-size: 3.2rem;
-    font-size: 3.2rem;
+    font-size: 3.1rem;
+    
     color: #f4ce95; /* Orange */
     padding-inline: 5px;
     padding-top:0;
@@ -181,7 +181,7 @@ body {
 }
 
 .item-price {
-    font-size: 3.2rem;
+    font-size: 3.1rem;
     color: #fcddc5;
     font-weight: bold;
     padding-inline: 10px;
