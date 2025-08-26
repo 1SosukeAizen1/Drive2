@@ -66,13 +66,13 @@
     
     "Drinks": [
       {
-        "name": "Coffee",
+        "name": "Hot Coffee",
         "desc": "Locally sourced, freshly brewed coffee.",
         "price": "$3.49"
       },
       {
         "name": "Milk",
-        "desc": "Whole milk or skim milk.",
+        "desc": "Whole milk",
         "price": "$2.49"
       }
     ]
