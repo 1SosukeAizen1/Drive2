@@ -7,7 +7,7 @@ body {
     background: url("assets/background/background.jpg") no-repeat center center fixed;
     background-size: cover !important;
     font-family: 'Luckiest Guy', cursive;
-    color: #4d2c13;
+    color: #000000;
     overflow: hidden; /* Prevent scrolling */
 }
 
@@ -112,14 +112,14 @@ body {
 }
 /* Category Title */
 .category-title {
-    font-size: 4.4rem; /* Slightly larger font size */
-    color: #ff9800; /* Orange */
+    font-size: 4rem; /* Slightly larger font size */
+    color: #f70000; /* Updated red */
     max-width: 100%;
-    margin: 5px;
+    margin: 2px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add a shadow for depth */
     border-radius: 13px; /* Rounded corners */
-    padding: 3px; /* Add padding for spacing */
-    
+
+    padding-top: 5px;
     text-align: center; /* Center the text */
     
 }
@@ -147,7 +147,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100%, 1fr)); /* Fit multiple items in rows */
     background: black;
-    padding: 2px;
+    
     z-index: 1;
 }
 
@@ -162,18 +162,17 @@ body {
 
 
 .item-name {
-    font-size: 3.1rem;
-    
-    color: #f4ce95; /* Orange */
+    font-size: 2.9rem;
+    color: #ffe500; /* Updated yellow */
     padding-inline: 5px;
-    padding-top:0;
+    padding-top:5px;
     
     
 }
 
 .item-desc {
-    font-size: 2.5rem;
-    color: #ffffff;
+    font-size: 2rem;
+    color: #ddd;
     font-style: italic;
     font-weight: light;
     padding-inline: 10px;
@@ -181,8 +180,8 @@ body {
 }
 
 .item-price {
-    font-size: 3.1rem;
-    color: #fcddc5;
+    font-size: 2.8rem;
+    color: #ffffff;
     font-weight: bold;
     padding-inline: 10px;
     padding: 10px;
@@ -223,7 +222,7 @@ body {
 
 .category-title.secondary {
     font-size: 2rem; /* Slightly smaller font size for secondary menu */
-    color: #ff9800; /* Orange */
+    color: #ffe500; /* Updated yellow */
     
 }
 
@@ -236,7 +235,7 @@ body {
 
 .menu-item.secondary {
     background-color: rgba(0, 0, 0, 0.8);
-    color: #4d2c13;
+    color: white;
     padding: 10px;
     border-radius: 5px;
     text-align: center;
@@ -258,8 +257,8 @@ body {
     object-fit: contain;
 }
 .category-title-wrapper .category-icon {
-    max-width: 310px;
-    max-height: 310px;
+    max-width: 450px;
+    max-height: 350px;
     border-radius: 14px;
    
     background: transparent;
@@ -269,29 +268,62 @@ body {
 
 .flame-banner {
     background: linear-gradient(90deg, #ffe600, #ff9900);
-    color: #422801;
+    color: #b80000;
     border: 8px dashed #ff0000;
-    font-size: 2.95rem;
-    padding: 5px 10px;
-    margin: 2px auto;
-    margin-bottom: 15px;
+    font-size: 3rem;
+    padding: 10px 20px;
+    margin: 16px auto;
     text-align: center;
-    letter-spacing: 1.5px;
+    
     width: 90%;
     border-radius: 20px;
     box-shadow: 0 4px 15px rgba(255, 0, 0, 0.4);
     text-shadow: 1px 1px 2px #fff;
 }
 
+.flame-banner .banner-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #630000;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    text-shadow: 2px 2px 0 rgba(255, 229, 0, 0.8), 4px 4px 10px rgba(0, 0, 0, 0.9);
+}
+
 .flame-banner .banner-price {
     display: block;
-    font-size: 2.9rem;
-    color: #4d2c13;
+    font-size: 2.7rem;
+    color: #d00000;
     margin-top: 10px;
     font-weight: bold;
     text-shadow: 1px 1px 2px #fff;
 }
 
+.flame-banner .banner-content {
+    
+    color: #ffffff;
+    text-align: left;
+    
+}
+
+.flame-banner .sauce-item {
+    display: block;
+    float: left;
+    width: 50%;
+    font-size: 2.5rem;
+    color: #7c0000;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+/* Clear floats after sauce items */
+.flame-banner .banner-content::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 .flame-new {
    
@@ -299,6 +331,7 @@ body {
     font-family: 'Luckiest Guy', cursive;
     font-weight: bold;
     font-size: 5rem;
+    
     margin: 36px 0;
     text-align: center;
     letter-spacing: 2.5px;
@@ -307,8 +340,7 @@ body {
     display: block;
     position: relative;
     animation: none;
-    padding-top: 0px;
-    color: #ff9800;
+    padding-top: 0px; 
     transition: box-shadow 0.2s, border 0.2s;
 }
 
@@ -410,7 +442,8 @@ body,
 .menu-item.inline .item-price {
     display: inline-block;
     vertical-align: middle;
-    margin:3px;
+    vertical-align: right;
+    margin-right: 0;
     padding: 0 8px 0 0;
     /* Prevent wrapping between name and price */
     white-space: nowrap;
