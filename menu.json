@@ -1,80 +1,147 @@
 {
-  "breakfast1/1": {
-	
-    "Sausage eggs and cheese":[
-      {
-        "name": "",
-        "desc": "sandwich with Fried egg, sausage patty, American cheese, on a toasted bun",
-        "price": "$4.99"
-      }
-	],
-	"Bacon eggs and cheese":[
-	  {
-        "name": "",
-        "desc": "sandwich Fried egg, bacon, American cheese, on a toasted bun",
-        "price": "$4.99"
-      }
-	],
-	"Gyro eggs":[
-      {
-        "name": "",
-        "desc": "sandwich with Scrambled eggs with gyro meat",
-        "price": "$5.99"
-      }
-	],
-	"Eggs and cheese":[
-      {
-        "name": "",
-        "desc": "sadwich with Fried egg, American cheese, on a toasted bun",
-        "price": "$3.99"
-      }
-    ]
     
+    "drive2": {
+        "Burgers": [
+            {
+                "name": "Slims burger",
+                "desc": "Cheese, Lettuce, Tomatoes, onions, Pickles and Sauce",
+                "price": "Sgl $5.99  Dbl $8.49 "
+            },
+            {
+                "name": "Busy burger",
+                "desc": "white american, grilled onions and busy sauce",
+                "price": "Sgl $5.99  Dbl $8.49"
+            },
+            {
+                "name": "Gyro burger",
+                "desc": "",
+                "price": "Sgl $7.99  Dbl $9.99"
+            },
+            {
+                "name": "Special Burgers:",
+                "desc": " Carolina - Bacon - Mush & Swiss - Veggie - Patty Melt - Sirloin Steak ",
+                "price": ""
+            }
+        ],
+        "combo-banner": {
+            "type": "banner",
+            "text": "Combo: Fries & Soda",
+            "price": "$5.99",
+            "text1": ""
+        } ,
+        
+        "Sandwiches": [
+            
+            {
+                "name": "philly CheeseSteak",
+                "desc": "cheese, grilled onions, peppers, mushrooms, mayo and tomatoes",
+                "price": "$11.99"
+            },
+            {
+                "name": "Chicken philly",
+                "desc": "",
+                "price": "$11.99"
+            }
+            ,
+            {
+                "name": "crispy Chicken",
+                "desc": "",
+                "price": "$8.99"
+            },
+            {
+                "name": "spicy chicken",
+                "desc": "",
+                "price": "$9.49"
+            },
+            {
+                "name": "grilled chicken",
+                "desc": "",
+                "price": "$8.99"
+            },
+            {
+                "name": "Fish Sandwich",
+                "desc": "",
+                "price": "$6.99"
+            },
+            {
+                "name": "Italian Beef",
+                "desc": "",
+                "price": "$8.99"
+            }
+        ]
+    },
+    "drive2/2": {
+        
+        "Reuben": [
+            {
+                "name": " ",
+                "desc": "Corned-Beef, Swiss cheese, sauerkraut and thousand island sauce",
+                "price": "$8.99"
+            }
+        ],
+        "Gyros":[
+            {
+                "name": "classic Gyro",
+                "desc": "",
+                "price": "$7.99"
+            },
+            {
+                "name": "spicy Gyro",
+                "desc": "",
+                "price": "$8.49"
+            }
+        ],
+        
     
-  },
-  "breakfast1/2": {
-	"Pancakes": [
-	{
-		"name": "",
-		"desc": "Stack of pancakes with butter, syrup",
-		"price": ""
-	},
-      {
-        "name": "2 Pc pancakes",
-        "desc": "",
-        "price": "$4.99"
-      },
-	  {
-		"name": "3 Pc pancakes",
-		"desc": "",
-		"price": "$6.99"
-	  },
-	  {
-		"name": "4 Pc pancakes",
-		"desc": "",
-		"price": "$8.99"
-	  }
-
-	 ],
-	 "Waffles": [
-      {
-        "name": "1 Slim's Waffle",
-        "desc": "Crispy waffle, butter, syrup. You can add whipped cream or fruit.",
-        "price": "$6.99"
-      }
-    ],
-    
-    "Drinks": [
-      {
-        "name": "Hot Coffee",
-        "desc": "Locally sourced, freshly brewed coffee.",
-        "price": "$3.49"
-      },
-      {
-        "name": "Milk",
-        "desc": "Whole milk",
-        "price": "$2.49"
-      }
-    ]
-  }
+        "Fries": [
+            {
+                "name": "Crispy Fries",
+                "desc": "",
+                "price": "Sm $2.99 Lg $3.99 "
+            }
+             ,
+        
+            {
+                "name": "Handcut Fries",
+                "desc": "",
+                "price": "Sm $3.19 Lg $4.29"
+            },
+            {
+                "name": "Cheese Fries",
+                "desc": "",
+                "price": "$4.99"
+            },
+            {
+                "name": "Chili Cheese",
+                "desc": "",
+                "price": "$5.99"
+            }
+        ],
+       
+        
+        "Sides":[
+            {
+                "name": "Onion Rings",
+                "desc": " ",
+                "price": "Sm $3.99    Lg $5.99"
+            },
+            {
+                "name": "Cheese curds",
+                "desc": "",
+                "price": "Sm $5.99    Lg $8.49"
+            },
+            {
+                "name": "Sweet Potato fries",
+                "desc": "",
+                "price": "Sm $3.99    Lg $4.49"
+            },
+            {
+                "name": "Mashed potatoes",
+                "desc": "",
+                "price": "Sm $2.39 Lg $4.78"
+            }
+           
+        ]
+        
+    }
 }
