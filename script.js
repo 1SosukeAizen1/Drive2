@@ -1,6 +1,6 @@
 // Hardcoded default screen types
-var screenType = "breakfast1/1"; // Main menu
-var secondaryScreenType = "breakfast1/2"; // Secondary menu
+var screenType = "Drive1/2"; // Main menu
+var secondaryScreenType = "Drive1/2"; // Secondary menu
 
 
 // Function to load a menu dynamically
