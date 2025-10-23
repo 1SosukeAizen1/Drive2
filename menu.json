@@ -5,17 +5,17 @@
             {
                 "name": "Slims burger",
                 "desc": "Cheese, Lettuce, Tomatoes, onions, Pickles and Sauce",
-                "price": "Sgl $5.99  Dbl $8.49 "
+                "price": "Sgl $6.99  Dbl $9.49 "
             },
             {
                 "name": "Busy burger",
                 "desc": "white american, grilled onions and busy sauce",
-                "price": "Sgl $5.99  Dbl $8.49"
+                "price": "Sgl $6.99  Dbl $9.49"
             },
             {
                 "name": "Gyro burger",
                 "desc": "",
-                "price": "Sgl $7.99  Dbl $9.99"
+                "price": "Sgl $8.99  Dbl $10.99"
             },
             {
                 "name": "other bugers we have",
