@@ -14,13 +14,13 @@
             },
             {
                 "name": "Gyro burger",
-                "desc": "",
+                "desc": "Cheese, Lettuce, Tomatoes, onions, Pickles and Sauce",
                 "price": "Sgl $8.99  Dbl $10.99"
             },
             {
-                "name": "other bugers we have",
-                "desc": " Carolina - Bacon - Mush & Swiss - Veggie - Patty Melt - Sirloin Steak ",
-                "price": ""
+                "name": "Carolina burger",
+                "desc": "Cheese, Lettuce, Tomatoes, grilled onions, Pickles and BBQ Sauce",
+                "price": "Sgl $7.49  Dbl $9.99"
             }
         ],
         "combo-banner": {
@@ -28,98 +28,35 @@
             "text": "Combo: Fries & Soda",
             "price": "$5.99",
             "text1": ""
-        } ,
+        } 
         
-        "Sandwiches": [
-            
-            {
-                "name": "philly CheeseSteak",
-                "desc": "cheese, grilled onions, peppers, mushrooms, mayo and tomatoes",
-                "price": "$11.99"
-            },
-            {
-                "name": "Chicken philly",
-                "desc": "",
-                "price": "$11.99"
-            }
-            ,
-            {
-                "name": "crispy Chicken",
-                "desc": "",
-                "price": "$8.99"
-            },
-            {
-                "name": "spicy chicken",
-                "desc": "",
-                "price": "$9.49"
-            },
-            {
-                "name": "grilled chicken",
-                "desc": "",
-                "price": "$8.99"
-            },
-            {
-                "name": "Fish Sandwich",
-                "desc": "",
-                "price": "$6.99"
-            },
-            {
-                "name": "Italian Beef",
-                "desc": "",
-                "price": "$8.99"
-            }
-        ]
+        
     },
     "drive2/2": {
-        
-        "Reuben": [
-            {
-                "name": " ",
-                "desc": "Corned-Beef, Swiss cheese, sauerkraut and thousand island sauce",
-                "price": "$8.99"
-            }
-        ],
+    
         "Gyros":[
             {
                 "name": "classic Gyro",
                 "desc": "",
-                "price": "$7.99"
+                "price": "Just $7.99"
             },
             {
                 "name": "spicy Gyro",
                 "desc": "",
-                "price": "$8.49"
+                "price": "Just $8.49"
             }
         ],
         
     
-        "Fries": [
-            {
-                "name": "Crispy Fries",
-                "desc": "",
-                "price": "Sm $2.99 Lg $3.99 "
-            }
-             ,
         
-            {
-                "name": "Handcut Fries",
-                "desc": "",
-                "price": "Sm $3.19 Lg $4.29"
-            },
-            {
-                "name": "Cheese Fries",
-                "desc": "",
-                "price": "$4.99"
-            },
-            {
-                "name": "Chili Cheese fries",
-                "desc": "",
-                "price": "1 size $5.99"
-            }
-        ],
        
         
         "Sides":[
+             {
+                "name": "Crispy Fries",
+                "desc": "",
+                "price": "Sm $2.99 Lg $3.99 "
+            },
             {
                 "name": "Onion Rings",
                 "desc": " ",
@@ -142,6 +79,7 @@
             }
            
         ]
+       
         
     }
 }
