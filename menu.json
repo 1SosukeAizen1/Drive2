@@ -46,12 +46,16 @@
                 "price": "Just $8.49"
             }
         ],
-        "sandwitch" :[
-            {
-                "name": "reuben",
+        "Reuben": [
+             {
+                "name": "corn-beef",
                 "desc": "",
                 "price": "Just $8.99"
-            },
+            }
+        ],
+            
+        "sandwitch" :[
+            
             {
                 "name": "italian beef",
                 "desc": "",
