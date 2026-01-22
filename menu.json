@@ -60,7 +60,14 @@
                 "name": "italian beef",
                 "desc": "",
                 "price": "Just $8.99"
+            },
+            
+            {
+                "name": "crispy chicken",
+                "desc": "",
+                "price": "Just $8.99"
             }
+            
             
         ]
         
