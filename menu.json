@@ -28,7 +28,19 @@
             "text": "Combo: Fries & Soda",
             "price": "$5.99",
             "text1": ""
-        } 
+        } ,
+         "Shakes and Malts": [
+            {
+                "name": "Flavors",
+                "desc": "vanilla, Chocolate, Strawberry, Oreo, PeanutButter, Mango, caramel",
+                "price": ""
+            },
+              {
+                "name": "shake of the month",
+                "desc": "Snickers",
+                "price": "Sm $4.99 Lg $5.99"
+              }
+        ]
         
         
     },
