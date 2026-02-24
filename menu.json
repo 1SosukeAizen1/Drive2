@@ -16,11 +16,6 @@
                 "name": "Gyro burger",
                 "desc": "Cheese, Lettuce, Tomatoes, onions, Pickles and Sauce",
                 "price": "Sgl $8.99  Dbl $10.99"
-            },
-            {
-                "name": "Carolina burger",
-                "desc": "Cheese, Lettuce, Tomatoes, grilled onions, Pickles and BBQ Sauce",
-                "price": "Sgl $7.49  Dbl $9.99"
             }
         ],
         "combo-banner": {
