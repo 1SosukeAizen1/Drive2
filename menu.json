@@ -5,17 +5,17 @@
             {
                 "name": "Slims burger",
                 "desc": "Cheese, Lettuce, Tomatoes, onions, Pickles and Sauce",
-                "price": "Sgl $6.99  Dbl $9.49 "
+                "price": "Sgl $7.99  Dbl $8.49 "
             },
             {
                 "name": "Busy burger",
                 "desc": "white american, grilled onions and busy sauce",
-                "price": "Sgl $6.99  Dbl $9.49"
+                "price": "Sgl $5.99  Dbl $8.49"
             },
             {
                 "name": "Gyro burger",
                 "desc": "Cheese, Lettuce, Tomatoes, onions, Pickles and Sauce",
-                "price": "Sgl $8.99  Dbl $10.99"
+                "price": "Sgl $7.99  Dbl $9.99"
             }
         ],
         "combo-banner": {
@@ -56,7 +56,12 @@
             {
                 "name": "crispy chicken",
                 "desc": "",
-                "price": "Just $8.99"
+                "price": "Just $6.99"
+            },
+            {
+                "name": "spicy chicken",
+                "desc": "",
+                "price": "Just $7.49"
             }
             
             
@@ -70,27 +75,17 @@
              {
                 "name": "Crispy Fries",
                 "desc": "",
-                "price": "Sm $2.99 Lg $3.99 "
+                "price": "Lg $3.99 "
             },
             {
                 "name": "Onion Rings",
                 "desc": " ",
-                "price": "Sm $3.99    Lg $5.99"
+                "price": "Lg $5.99"
             },
             {
                 "name": "Cheese curds",
                 "desc": "",
-                "price": "Sm $5.99    Lg $8.49"
-            },
-            {
-                "name": "Sweet Potato fries",
-                "desc": "",
-                "price": "Sm $3.99    Lg $4.49"
-            },
-            {
-                "name": "Mashed potatoes",
-                "desc": "",
-                "price": "Sm $2.39 Lg $4.78"
+                "price": "Lg $8.49"
             }
            
         ]
