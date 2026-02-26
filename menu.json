@@ -32,12 +32,12 @@
         "Gyros":[
             {
                 "name": "classic Gyro",
-                "desc": "",
-                "price": "Just $7.49"
+                "desc": "tomatoes, onions and tzatziki sauce",
+                "price": " $7.49"
             },
             {
                 "name": "spicy Gyro",
-                "desc": "",
+                "desc": "tomatoes, onions, giardinera peppers and tzatziki sauce",
                 "price": "Just $7.99"
             }
         ],
