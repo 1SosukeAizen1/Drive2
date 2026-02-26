@@ -43,18 +43,22 @@
         ],
         
             
-        "sandwitches" :[
-            
+        "Sandwitches" :[
+            {
+                "name": "Cheesesteak",
+                "desc": "Cheese, grilled onions, green peppers, mushrooms, tomatoes and mayo",
+                "price": " $11.99"
+            },
           
             {
                 "name": "crispy chicken",
-                "desc": "",
-                "price": "Just $6.99"
+                "desc": "cheese, busy sauce, lettuce and tomatoes",
+                "price": "$6.99"
             },
             {
                 "name": "spicy chicken",
-                "desc": "",
-                "price": "Just $7.49"
+                "desc": "we add jalopenoes and chipotle mayo to spice it up",
+                "price": " $7.49"
             }
             
             
